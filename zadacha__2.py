@@ -9,6 +9,7 @@ class Odejka(ABC):
     @abstractmethod
     def p(self):
         pass
+    p
 
     def __add__(self, other):
         return self.p + other.p
